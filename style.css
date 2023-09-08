@@ -1,0 +1,330 @@
+.main h1 {
+  color: white;
+}
+.main h2 {
+  color: #a7cf44;
+}
+.main button {
+  background: rgb(167, 207, 68);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 6px;
+}
+.main button:hover {
+  background-color: #faa62d;
+  color: white;
+}
+.main .container {
+  max-width: 1380px;
+}
+.main .banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(86 88 87 / 77%),
+      rgb(86 88 87 / 60%)
+    ),
+    url("https://www.ivolunteerawards.in/wp-content/uploads/2018/06/5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.main .banner img {
+  border: 3px solid #a7ce43;
+}
+.main .about .img {
+  position: relative;
+}
+.main .about .img2 img {
+  position: absolute;
+  bottom: -30px;
+  left: -22px;
+  width: 300px;
+  height: 200px;
+}
+.main .about .img .about2 {
+  width: 100%;
+}
+.main .about .para h2 {
+  color: #a7cf44;
+  margin-bottom: 25px;
+}
+.main .categories {
+  padding: 30px 0 0 0;
+}
+
+.main .categories .card {
+  height: 370px;
+  margin-top: 50px;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(86 88 87 / 95%),
+      rgb(86 88 87 / 66%)
+    ),
+    url("https://img.freepik.com/free-photo/male-business-executive-receiving-award_107420-63805.jpg?w=1060&t=st=1693914022~exp=1693914622~hmac=3aa6adf1e2bf68b923bdd0c26b8e0772a016def67a8fd51e27a91c4ce2661b11");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+.main .categories .card .card-body {
+  text-align: center;
+}
+.main .categories .card .card-body h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main .categories .card .card-body p {
+  color: white;
+}
+.main .categories .card img {
+  width: 100px;
+  display: flex;
+  margin: auto;
+  background: white;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.main .categories .card .card-body .btn2 {
+  margin-top: 45px;
+}
+.main .categories .card .card-body .btn3 {
+  margin-top: 21px;
+}
+/* .main .categories .card .card-body .box {
+  background-color: #a7ce43;
+  width: 50px;
+  display: flex;
+  margin: auto;
+  height: 60px;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+}
+.main .categories .card .card-body .box .icon {
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 8%;
+  padding: 10px 14px;
+} */
+.main .banner_2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(86, 88, 87, 0.7),
+      rgba(86, 88, 87, 0.84)
+    ),
+    url("https://www.ivolunteerawards.in/wp-content/uploads/2018/07/about-home-bg.jpg?id=4078");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.main .selection {
+  padding: 30px 0 0 0;
+}
+.main .selection .card {
+  /* height: 200px;
+  margin-top: 50px; */
+  height: 255px;
+  border: none;
+  border-top: 4px solid #a7cf44;
+  border-radius: 12px;
+  padding: 10px;
+}
+.main .selection .card .card-body h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+}
+.main .objectives .list {
+  margin: 10px 0 0;
+  padding: 10px 0;
+}
+.main .faq .accordion .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #fff;
+}
+.main .faq .accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  color: #fff;
+}
+.main .faq .accordion .card {
+  border: 0;
+}
+.main .faq .accordion .card .row {
+  margin-bottom: 0 !important;
+}
+.main .faq .accordion .card .card-header {
+  border-bottom: none;
+  background-color: #a7cf44;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.main .faq .accordion .card .card-header .card-title {
+  color: white;
+}
+.main .faq .accordion .card .card-header:first-child {
+  border-radius: none;
+}
+.main .swiper {
+  width: 100%;
+  height: 100%;
+}
+.main .swiper .swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+}
+
+.main .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #afcf44;
+  padding: 50px;
+}
+
+.main .swiper-slide img {
+  display: block;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.main .swiper-slide p {
+  color: #fff;
+}
+.main .gallery {
+  padding: 30px 0 0 0;
+}
+.main .mySwiperGallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.main .mySwiperGallery .swiper-slide {
+  background-color: white;
+  padding: 0;
+}
+.main .faq {
+  padding: 30px 0 0 0;
+}
+.main .jury {
+  padding: 30px 0 0 0;
+}
+.main .jury .content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main .jury .content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.main .jury .content:hover .content-overlay {
+  opacity: 1;
+}
+
+.main .jury .content-image {
+  width: 100%;
+}
+
+.main .jury .content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.main .jury .content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.main .jury .content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.main .jury .content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+.main .jury .content-details a:hover {
+  color: #f6ac02;
+}
+.main .jury .fadeIn-top {
+  top: 20%;
+}
+.main .press {
+  padding: 30px 0 0 0;
+}
+.main .press .media {
+  position: relative;
+  border: 5px solid #a7cf44;
+}
+
+.main .press .media .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main .press .media .overlay {
+  position: absolute;
+  bottom: -16px;
+  background: rgb(0 0 0 / 73%);
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main .press .media:hover .overlay {
+  opacity: 1;
+}
